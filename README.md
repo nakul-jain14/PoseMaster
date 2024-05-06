@@ -22,7 +22,7 @@ Have feedback or questions about PoseMaster? Feel free to contact me using the f
 
 ## Project Website
 
-PoseMaster is hosted on GitHub Pages. You can view the project website and interact with the application [here](https://yourgithubusername.github.io/PoseMaster).
+PoseMaster is hosted on GitHub Pages. You can view the project website and interact with the application [here].
 
 ## Screenshot!
 
