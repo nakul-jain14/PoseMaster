@@ -22,7 +22,7 @@ Have feedback or questions about PoseMaster? Feel free to contact me using the f
 
 ## Project Website
 
-PoseMaster is hosted on Vercel. You can view the project website and interact with the application [here](https://vercel.com/nakul-jain14s-projects/pose-master/C1Y8x3amN2ubLJinZgzUTWtUjMKX).
+PoseMaster is hosted on Vercel. You can view the project website and interact with the application [here](https://pose-master-9a9x2qmr1-nakul-jain14s-projects.vercel.app/).
 
 ## Screenshot!
 
