@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Contact Me</title>
+    </head>
+<body>
+  <header>
+    <nav>
+      <h2><u>PoseMaster</u></h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      
+    </nav>
+  </header>
+    <h1><u>Contact Me</u></h1>
+    <p>
+    <b>Thank you for visiting my Project!</b> If you have any questions, comments, or concerns, please don't hesitate to get in touch with me using the contact form below. I appreciate any feedback you may have and will do my best to respond to your inquiry within 2-3 days. When filling out the form, please provide as much detail as possible so that I can better understand your needs and provide a more accurate response. Rest assured that your personal information will be kept confidential and will not be shared with third parties without your consent.
+    </p>
+  <main>
+    <form
+      action="https://formspree.io/f/xzbnoydp"
+      method="POST"
+    >
+    <div>
+      <label>
+        <b>Your Name:</b>
+        <input type="name" name="name" required>
+      </label> 
+    </div>
+    <div> 
+      <label>
+        <b>Your Email:</b>
+        <input type="email" name="email" required>
+      </label>
+    </div>
+    <div>  
+      <label>
+        <b>Your Message:</b>
+        <textarea name="message" rows="5" cols="30" required></textarea>
+      </label>
+    </div>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <script src="contact.js"></script>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 4rem;
+        padding: 0;
+        background-color: #f5f5f5;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 58px;
+    }
+    nav ul {
+        list-style: none;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        float: right;
+    }
+    nav li {
+        margin: 0 10px;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    h2 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+    }
+    p {
+        font-size: 1.2em;
+        margin: 20px;
+    }
+    form div {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</body>
+</html>
